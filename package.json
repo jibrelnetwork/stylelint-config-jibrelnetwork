@@ -1,0 +1,24 @@
+{
+  "name": "stylelint-config-jibrelnetwork",
+  "version": "1.0.0",
+  "description": "The base Stylelint config for Jibrel Network projects",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jibrelnetwork/stylelint-config-jibrelnetwork.git"
+  },
+  "author": "Jibrel Network",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint-config-standard": "18.0.0",
+    "stylelint-rscss": "0.4.0",
+    "stylelint-scss": "2.2.0"
+  },
+  "peerDependencies": {
+    "stylelint": "8.4.0"
+  }
+}

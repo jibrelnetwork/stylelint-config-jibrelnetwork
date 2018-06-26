@@ -11,27 +11,41 @@ module.exports = {
       true, {
         "element": "^[a-z-]+$",
         "maxDepth": false,
-        "component": "pascal-case",
+        "component": "pascal-case"
       }
     ],
     "at-rule-no-unknown": [
       true, {
-        ignoreAtRules: [
-          'if',
-          'for',
-          'else',
-          'warn',
-          'each',
-          'error',
-          'while',
-          'debug',
-          'mixin',
-          'return',
-          'extend',
-          'at-root',
-          'include',
-          'content',
-          'function',
+        "ignoreAtRules": [
+          "if",
+          "for",
+          "else",
+          "warn",
+          "each",
+          "error",
+          "while",
+          "debug",
+          "mixin",
+          "return",
+          "extend",
+          "at-root",
+          "include",
+          "content",
+          "function"
+        ]
+      }
+    ],
+    "selector-pseudo-class-no-unknown": [
+      true, {
+        "ignorePseudoClasses": [
+          "global"
+        ]
+      }
+    ],
+    "selector-pseudo-element-no-unknown": [
+      true, {
+        "ignorePseudoElements": [
+          "global"
         ]
       }
     ],

@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-jibrelnetwork",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The base Stylelint config for Jibrel Network projects",
   "main": "index.js",
   "engines": {

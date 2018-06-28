@@ -9,9 +9,8 @@ module.exports = {
   "rules": {
     "rscss/class-format": [
       true, {
-        "element": "^[a-z-]+$",
-        "maxDepth": false,
-        "component": "pascal-case"
+        "component": "^[a-z-]+$",
+        "maxDepth": false
       }
     ],
     "at-rule-no-unknown": [

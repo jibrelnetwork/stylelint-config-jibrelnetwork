@@ -9,7 +9,7 @@ module.exports = {
   "rules": {
     "rscss/class-format": [
       true, {
-        "component": "^[a-z-]+$",
+        "component": "^[a-z][a-z-]+[a-z]$",
         "maxDepth": false
       }
     ],

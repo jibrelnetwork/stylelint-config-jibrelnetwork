@@ -49,6 +49,6 @@ module.exports = {
       }
     ],
     "selector-max-universal": 0,
-    "selector-nested-pattern": "^(&:|>|&.-)"
+    "selector-nested-pattern": "^(&:|>|&.-|&,)"
   }
 }
